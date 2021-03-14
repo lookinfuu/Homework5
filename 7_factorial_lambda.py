@@ -22,6 +22,6 @@ if x != 0:
     try:
         print(f"{x}! = {factorial(x)}")
     except RecursionError:
-        print(f"Ошбика памяти. (Ограниченность рекурсии)")
+        print(f"Ошбика памяти. (Ограниченность метода)")
 else:
     print(f"{x}! = 1")
